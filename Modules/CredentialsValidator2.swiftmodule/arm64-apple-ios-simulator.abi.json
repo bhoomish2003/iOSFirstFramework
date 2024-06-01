@@ -1,0 +1,103 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CredentialsValidator2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CredentailsValidator2",
+        "printedName": "CredentailsValidator2",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isValidEmail",
+            "printedName": "isValidEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CredentialsValidator2011CredentailsB0V12isValidEmailySbSSFZ",
+            "mangledName": "$s21CredentialsValidator2011CredentailsB0V12isValidEmailySbSSFZ",
+            "moduleName": "CredentialsValidator2",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CredentialsValidator2011CredentailsB0V8sayHelloyyFZ",
+            "mangledName": "$s21CredentialsValidator2011CredentailsB0V8sayHelloyyFZ",
+            "moduleName": "CredentialsValidator2",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CredentailsValidator2",
+                "printedName": "CredentialsValidator2.CredentailsValidator2",
+                "usr": "s:21CredentialsValidator2011CredentailsB0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21CredentialsValidator2011CredentailsB0VACycfc",
+            "mangledName": "$s21CredentialsValidator2011CredentailsB0VACycfc",
+            "moduleName": "CredentialsValidator2",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21CredentialsValidator2011CredentailsB0V",
+        "mangledName": "$s21CredentialsValidator2011CredentailsB0V",
+        "moduleName": "CredentialsValidator2",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
